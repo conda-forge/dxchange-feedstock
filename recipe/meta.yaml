@@ -7,7 +7,7 @@ package:
 source:
     url: https://github.com/data-exchange/dxchange/archive/v{{ version }}.tar.gz
     fn: dxchange-{{ version }}.tar.gz
-    sha256: b1d995d821eef3bcbf27bdca6ef253a3ad43702248005c179a58e15c9289ade6
+    sha256: 252be2283878384b59a23482eab870f51d63b9205d34e26e4f319d2bced90519
 
 build:
     number: 0
