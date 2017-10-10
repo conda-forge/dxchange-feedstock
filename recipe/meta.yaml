@@ -25,6 +25,7 @@ requirements:
         - netcdf4
         - numpy
         - python
+        - scipy
         - six
         - spefile
         - tifffile
