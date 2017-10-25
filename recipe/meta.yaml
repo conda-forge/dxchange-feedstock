@@ -27,7 +27,7 @@ requirements:
         - python
         - scipy
         - six
-        - spefile
+#        - spefile
         - tifffile
 
 test:
