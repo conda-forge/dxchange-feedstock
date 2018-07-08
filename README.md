@@ -14,14 +14,15 @@ Summary: Data I/O for tomography.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/dxchange-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/dxchange-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/dxchange-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/dxchange-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/dxchange-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/dxchange-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/dxchange-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/dxchange-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/dxchange/badges/version.svg)](https://anaconda.org/conda-forge/dxchange)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/dxchange/badges/downloads.svg)](https://anaconda.org/conda-forge/dxchange)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-dxchange-green.svg)](https://anaconda.org/conda-forge/dxchange) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/dxchange.svg)](https://anaconda.org/conda-forge/dxchange) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/dxchange.svg)](https://anaconda.org/conda-forge/dxchange) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/dxchange.svg)](https://anaconda.org/conda-forge/dxchange) |
 
 Installing dxchange
 ===================
