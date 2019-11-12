@@ -1,52 +1,51 @@
 {% set version = "0.1.5" %}
 
 package:
-    name: dxchange
-    version: {{ version }}
+  name: dxchange
+  version: {{ version }}
 
 source:
-    url: https://github.com/data-exchange/dxchange/archive/v{{ version }}.tar.gz
-    fn: dxchange-{{ version }}.tar.gz
-    sha256: 023652ac8f29cf486bbcc0112d980b255c1b7b3d5e23e555b7e4b7e373117387
+  url: https://github.com/data-exchange/dxchange/archive/v{{ version }}.tar.gz
+  sha256: 023652ac8f29cf486bbcc0112d980b255c1b7b3d5e23e555b7e4b7e373117387
 
 build:
-    number: 1000
-    script: python setup.py install --single-version-externally-managed --record=record.txt
+  number: 1001
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
-    build:
-        - python
-        - setuptools
-
-    run:
-        - dxfile
-        - edffile
-        - h5py
-        - netcdf4
-        - numpy
-        - python
-        - scipy
-        - six
-        - spefile
-        - tifffile
+  build:
+    - python
+    - pip
+  run:
+    - python
+    - dxfile
+    - edffile
+    - h5py
+    - netcdf4
+    - numpy
+    - scipy
+    - six
+    - spefile
+    - tifffile
 
 test:
-    imports:
-        - dxchange
-        - dxchange.reader
-        - dxchange.writer
-        - dxchange.exchange
+  imports:
+    - dxchange
+    - dxchange.reader
+    - dxchange.writer
+    - dxchange.exchange
 
 about:
-    home: http://dxchange.readthedocs.org
-    license: BSD 3-Clause
-    summary: 'Data I/O for tomography.'
+  home: http://dxchange.readthedocs.org
+  license: BSD-3-Clause
+  license_file: LICENSE.txt
+  summary: 'Data I/O for tomography'
 
 extra:
-    recipe-maintainers:
-        - dgursoy
-        - decarlof
-        - ericdill
-        - licode
-        - ravescovi
-        - tacaswell
+  recipe-maintainers:
+    - dgursoy
+    - decarlof
+    - ericdill
+    - licode
+    - ravescovi
+    - tacaswell
