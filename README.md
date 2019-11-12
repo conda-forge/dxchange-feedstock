@@ -1,24 +1,28 @@
 About dxchange
 ==============
 
-[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
-
 Home: http://dxchange.readthedocs.org
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: Data I/O for tomography.
+Summary: Data I/O for tomography
 
 
 
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/dxchange-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/dxchange-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/dxchange-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/dxchange-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/dxchange-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/dxchange-feedstock/branch/master)
+
+<table><tr><td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5566&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/dxchange-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
@@ -51,6 +55,8 @@ conda search dxchange --channel conda-forge
 
 About conda-forge
 =================
+
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
 
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
