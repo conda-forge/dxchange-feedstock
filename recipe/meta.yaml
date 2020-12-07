@@ -28,7 +28,8 @@ requirements:
     - six
     - spefile
     - tifffile
-
+    - pandas
+    
 test:
   imports:
     - dxchange
