@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/data-exchange/dxchange/archive/v{{ version }}.tar.gz
-  sha256: 8ce7c1ce3bdb483f285ba7483657691907e93c57c85067fe7bfa5756c2fc429f
+  sha256: fa0b7c13a4c224d4ad8c356f688a7ab803d7caf6df272944d1ee2158f98e709b
 
 build:
   number: 0
@@ -29,7 +29,7 @@ requirements:
     - spefile
     - tifffile
     - pandas
-    
+
 test:
   imports:
     - dxchange
