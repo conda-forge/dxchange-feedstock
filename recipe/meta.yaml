@@ -1,4 +1,4 @@
-{% set version = "0.1.9" %}
+{% set version = "0.1.8" %}
 
 package:
   name: dxchange
@@ -6,8 +6,7 @@ package:
 
 source:
   url: https://github.com/data-exchange/dxchange/archive/v{{ version }}.tar.gz
-  sha256: c1ef77b27629578c618db9dcb64bcf12c6295fdae11f54d983a68b5ca6ae473c
-
+  sha256: 81187add9144d2673835c8edd4de9b0a94d9f634a18514f6e01c12b5e1adb0ff
 
 build:
   number: 0
@@ -16,20 +15,19 @@ build:
 
 requirements:
   host:
+    - python >=3.6
     - pip
-    - python 3.6
-    - setuptools >=45
   run:
-    - python >=3.6,<4
+    - python >=3.6
     - dxfile
     - edffile
-    - h5py >=3.8
+    - h5py
     - netcdf4
-    - numpy >1.12,!=1.22.4
-    - scipy >=1.0,<1.14
+    - numpy
+    - scipy
     - six
     - spefile
-    - tifffile >=2019
+    - tifffile
     - pandas
 
 test:
