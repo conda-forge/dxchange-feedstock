@@ -1,4 +1,4 @@
-{% set version = "0.1.9" %}
+{% set version = "0.2.1" %}
 
 package:
   name: dxchange
@@ -6,11 +6,10 @@ package:
 
 source:
   url: https://github.com/data-exchange/dxchange/archive/v{{ version }}.tar.gz
-  sha256: c1ef77b27629578c618db9dcb64bcf12c6295fdae11f54d983a68b5ca6ae473c
-
+  sha256: 3fa69c609adff4e9c599c8f0b46c4bbabf2980e68ae8ba11efa670d4187eeb3c
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
