@@ -9,7 +9,7 @@ source:
   sha256: 3fa69c609adff4e9c599c8f0b46c4bbabf2980e68ae8ba11efa670d4187eeb3c
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
@@ -26,7 +26,7 @@ requirements:
     - netcdf4
     - numpy >1.12,!=1.22.4
     - py-opencv
-    - scipy >=1.0,<1.14
+    - scipy >=1.0,<2
     - spefile
     - tifffile >=2019
     - pandas
